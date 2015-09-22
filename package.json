@@ -1,0 +1,47 @@
+{
+  "name": "Dashboard",
+  "version": "1.0.0",
+  "description": "Dashboard",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "PCM",
+  "dependencies": {
+    "babel": "*",
+    "babel-core": "*",
+    "babel-eslint": "*",
+    "babel-jest": "*",
+    "babel-loader": "*",
+    "css-loader": "*",
+    "eslint": "*",
+    "eslint-loader": "*",
+    "eslint-plugin-react": "*",
+    "file-loader": "*",
+    "flux": "*",
+    "jest-cli": "*",
+    "jsx-loader": "*",
+    "node-sass": "*",
+    "react": "*",
+    "react-dom": "*",
+    "react-hot-loader": "*",
+    "react-tools": "*",
+    "sass-loader": "*",
+    "style-loader": "*",
+    "svgo": "*",
+    "svgo-loader": "*",
+    "uglify-js": "*",
+    "underscore": "*",
+    "webpack": "*"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "*"
+  },
+  "jest": {
+    "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
+    "testFileExtensions": ["es6", "js"],
+    "moduleFileExtensions": ["js", "json", "es6"],
+    "unmockedModulePathPatterns": [
+      "react"
+    ]
+  }
+}

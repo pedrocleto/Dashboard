@@ -1,0 +1,36 @@
+{
+    "rules": {
+        "indent": [
+            0,
+            "tab"
+        ],
+        "quotes": [
+            0,
+            "single"
+        ],
+        "linebreak-style": [
+            0,
+            "windows"
+        ],
+        "semi": [
+            2,
+            "always"
+        ],
+        "no-multi-spaces" : 0,
+        "space-infix-ops" :0,
+        "no-trailing-spaces": 0,
+        "no-mixed-spaces-and-tabs":0,
+        "strict": 0
+    },
+    "env": {
+        "es6": true,
+        "browser": true
+    },
+    "ecmaFeatures": {
+        "jsx": true
+    },
+    "parser": "babel-eslint",
+    "plugins": [
+        "react"
+    ]
+}

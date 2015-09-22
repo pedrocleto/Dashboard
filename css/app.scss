@@ -1,0 +1,28 @@
+//@import "vendor/";
+
+@mixin box-shadow($params) {
+    box-shadow: $params;
+}
+
+$font-family: Verdana;
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: $font-family;
+  font-size: 14px;
+  overflow: hidden;
+}
+
+div, span {
+  box-sizing: border-box;
+  position: relative;
+  border: 0 solid black;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  flex-shrink: 0;
+}
